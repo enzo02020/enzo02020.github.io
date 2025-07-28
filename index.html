@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>visual studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+  <header> 
+  <div class="imagen-circular">
+    <img src="LOGO 2024 - AS.VisualFlms PNG.png" alt="angel logo">
+  </div>
+
+  <h1>A.S VISUAL FILMS</h1>
+  <p>Productor Musical y Filmaker</p>
+  <button onclick="toggleTheme()">Cambiar Tema</button>
+
+  <div class="texto-esquina">angel patiño - @angeel.flp</div>
+</header>
+
+  <main>
+    <section id="biografia">
+  <h2>Biografía</h2>
+  <p>
+    Soy Ángel Patiño, productor musical y filmmaker apasionado por capturar momentos únicos y transformarlos en arte audiovisual. A lo largo de mi carrera he utilizado diversas <strong>herramientas</strong> como cámaras Canon EOS R, estabilizadores DJI Ronin y micrófonos profesionales Rode, que me han permitido mejorar la calidad técnica de mis proyectos.
+  </p>
+  <p>
+    En el aspecto digital, domino <strong>programas</strong> como Adobe Premiere Pro para la edición de video, FL Studio para la producción musical y Photoshop para diseño gráfico. Estas herramientas me ayudan a plasmar mi visión con precisión.
+  </p>
+  <p>
+    Mi <strong>estilo</strong> se caracteriza por una estética urbana, luces de neón, contrastes marcados y transiciones suaves que reflejan la intensidad y emoción de cada historia. Me enfoco en una narrativa visual moderna, íntima y auténtica.
+  </p>
+</section>
+
+    <section id="galeria">
+  <h2 class="titulo-marco">reels y tik toks</h2>
+
+  <div class="galeria">
+    <div class="galeria-item" onclick="toggleDescripcion(this)">
+      <video src="ssstik.io_@angeel.flp_1753728864779.mp4" controls></video>
+
+      <p class="descripcion">cancion con acapela</p>
+    </div>
+
+    <div class="galeria-item" onclick="toggleDescripcion(this)"> 
+  <video src="ssstik.io_@angeel.flp_1753728400545.mp4" controls></video>
+  <p class="descripcion">mejorar canciones</p>
+</div>
+
+    <div class="galeria-item" onclick="toggleDescripcion(this)">
+      <video src="ssstik.io_@angeel.flp_1753729297085.mp4" controls></video>
+      <p class="descripcion">video una sola toma</p>
+    </div>
+
+    <div class="galeria-item" onclick="toggleDescripcion(this)">
+      <video src="ssstik.io_@angeel.flp_1753731866265.mp4" controls></video>
+      <p class="descripcion">5 cosas que</p>
+    </div>
+  </div>
+</section>
+
+    <section id="media"> 
+  <h2 class="titulo-marco">VIDEOCLIPS</h2>
+  
+  <video width="640" height="360" controls>
+    <source src="Cada Vez Mejor - LANENA KTA SONANDO (AS.VisualFilms).mp4" type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
+</section>
+  </main>
+
+  <footer>
+  <div class="footer-content">
+    <div class="footer-social">
+      <a href="https://instagram.com/angeel.flp" target="_blank">Instagram</a>
+      <a href="https://youtube.com/@AngelMTZ" target="_blank">YouTube</a>
+      <a href="https://www.tiktok.com/@ángel.flp" target="_blank">TikTok</a>
+    </div>
+    <p>© 2025 A.S VISUAL FILMS – Todos los derechos reservados</p>
+    <p>Monte Grande, Buenos Aires, Argentina</p>
+    <button onclick="scrollToTop()" class="scroll-top">↑ Volver arriba</button>
+  </div>
+</footer>
+  <script src="script.js"></script>
+  <script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }) ; 
+}
+</script>
+</body>
+</html>
